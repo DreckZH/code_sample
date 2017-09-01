@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MMS_CFG" version="1.0" time="2011-5-16 16:49:25" >
+	<commconfig count="1" desc="">
+		<param0 id="0" val="CZ1002.cid" desc="SCD模型文件"/>
+	</commconfig>	
+	<protocols enabled="1" type="1" name="MMS" pipename="mms_0" desc="61850采集规约0" >
+		<rcbcfg count="4" rcbno="03" max="16" >				
+			<rcb0 id="0" type="brcb" trgops="011011" optflds="0111111110" intgpd="0" gipd="50000" />
+			<rcb1 id="1" type="brcb" trgops="011011" optflds="0111111110" intgpd="60000" gipd="" />
+			<rcb2 id="2" type="urcb" trgops="011011" optflds="0111111110" intgpd="60000" gipd="900000" />
+			<rcb3 id="3" type="urcb" trgops="011011" optflds="0111111110" intgpd="60000" gipd="900000" />
+		</rcbcfg>		
+		<rcbdefine count="6">
+			<rcbdef0 id="0" rcbid="1" rptid="LD0/LLN0$RP$brcbAlarm" datareference="CZ1002LD0/LLN0$BR$brcbAlarm" enable="1" name="故障信号" desc="CZ1002LD0/LLN0$dsAlarm" />
+			<rcbdef1 id="1" rcbid="1" rptid="LD0/LLN0$RP$brcbRelayEna" datareference="CZ1002LD0/LLN0$BR$brcbRelayEna" enable="1" name="保护软压板" desc="CZ1002LD0/LLN0$dsRelayEna" />
+			<rcbdef2 id="2" rcbid="1" rptid="LD0/LLN0$RP$brcbWarning" datareference="CZ1002LD0/LLN0$BR$brcbWarning" enable="1" name="告警信号" desc="CZ1002LD0/LLN0$dsWarning" />	
+			<rcbdef3 id="3" rcbid="1" rptid="MEAS/LLN0$RP$urcbAin" datareference="CZ1002MEAS/LLN0$RP$urcbAin" enable="1" name="遥测量" desc="CZ1002MEAS/LLN0$dsAin" />
+			<rcbdef4 id="4" rcbid="1" rptid="CTRL/LLN0$RP$brcbDinA" datareference="CZ1002CTRL/LLN0$BR$brcbDinA" enable="1" name="遥信开入" desc="CZ1002CTRL/LLN0$dsDinA" />
+			<rcbdef5 id="5" rcbid="1" rptid="CRTL/LLN0$RP$brcbDinB" datareference="CZ1002CTRL/LLN0$BR$brcbDinB" enable="1" name="站控层goose开入" desc="CZ1002CTRL/LLN0$dsDinB" />
+		</rcbdefine>
+		<devices count="1">
+			<dev0 name="CZ1002" devinfofile="CZ1002.xml" enable="1" desc="CZ1002"/>	
+		</devices>				
+	</protocols>	
+</project>
+
+

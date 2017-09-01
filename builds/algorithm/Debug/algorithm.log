@@ -1,0 +1,14 @@
+﻿生成启动时间为 2017/8/26 12:25:27。
+     1>项目“F:\personal\code_sample\builds\algorithm\algorithm.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\algorithm\search.cpp
+         search.cpp
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\..\lib\algorithm.lib" /NOLOGO Debug\search.obj
+         Debug\sort.obj
+         algorithm.vcxproj -> F:\personal\code_sample\builds\algorithm\..\..\lib\algorithm.lib
+     1>已完成生成项目“F:\personal\code_sample\builds\algorithm\algorithm.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.33

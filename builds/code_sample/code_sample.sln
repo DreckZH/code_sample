@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algorithm", "..\algorithm\algorithm.vcxproj", "{D13BD74B-D20E-467C-90BF-14D958985C09}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xmlparser", "..\xmlparser\xmlparser.vcxproj", "{5665A493-19FC-447F-A34B-94AB7BC7C8D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "..\test\test.vcxproj", "{C09744CA-C445-450A-84B6-523B060D1A59}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D13BD74B-D20E-467C-90BF-14D958985C09} = {D13BD74B-D20E-467C-90BF-14D958985C09}
+		{5665A493-19FC-447F-A34B-94AB7BC7C8D7} = {5665A493-19FC-447F-A34B-94AB7BC7C8D7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utilitys", "..\utilitys\utilitys.vcxproj", "{25AD593F-033A-4BEF-951F-49B44DAE3039}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D13BD74B-D20E-467C-90BF-14D958985C09}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D13BD74B-D20E-467C-90BF-14D958985C09}.Debug|Win32.Build.0 = Debug|Win32
+		{D13BD74B-D20E-467C-90BF-14D958985C09}.Release|Win32.ActiveCfg = Release|Win32
+		{D13BD74B-D20E-467C-90BF-14D958985C09}.Release|Win32.Build.0 = Release|Win32
+		{5665A493-19FC-447F-A34B-94AB7BC7C8D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5665A493-19FC-447F-A34B-94AB7BC7C8D7}.Debug|Win32.Build.0 = Debug|Win32
+		{5665A493-19FC-447F-A34B-94AB7BC7C8D7}.Release|Win32.ActiveCfg = Release|Win32
+		{5665A493-19FC-447F-A34B-94AB7BC7C8D7}.Release|Win32.Build.0 = Release|Win32
+		{C09744CA-C445-450A-84B6-523B060D1A59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C09744CA-C445-450A-84B6-523B060D1A59}.Debug|Win32.Build.0 = Debug|Win32
+		{C09744CA-C445-450A-84B6-523B060D1A59}.Release|Win32.ActiveCfg = Release|Win32
+		{C09744CA-C445-450A-84B6-523B060D1A59}.Release|Win32.Build.0 = Release|Win32
+		{25AD593F-033A-4BEF-951F-49B44DAE3039}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25AD593F-033A-4BEF-951F-49B44DAE3039}.Debug|Win32.Build.0 = Debug|Win32
+		{25AD593F-033A-4BEF-951F-49B44DAE3039}.Release|Win32.ActiveCfg = Release|Win32
+		{25AD593F-033A-4BEF-951F-49B44DAE3039}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
